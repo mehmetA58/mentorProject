@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.815">
+    <testcase classname="Amazon invalid sign in" name="Amazon invalid sign in" time="13.563">
+        <system-out>
+            <![CDATA[When user goes to Amazon Home Page..........................................passed
+Then user clicks signin button..............................................passed
+And user enters invalid email...............................................passed
+And clicks continue button..................................................passed
+Then checks that the error message is displayed.............................passed
+And close page..............................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,77 @@
+2022-02-22 22:53:27 INFO  TC01StepDefinitions:21 - anasayfa açıldı
+2022-02-22 22:53:27 INFO  Log:16 - ---------------------------------------------------------------------------------------
+2022-02-22 22:53:27 INFO  Log:17 - ***********************        all menu testi START    **************************
+2022-02-22 22:53:27 INFO  Log:18 - ---------------------------------------------------------------------------------------
+2022-02-22 22:53:28 INFO  Log:37 - All butonuna tıklandı
+2022-02-22 22:53:44 INFO  Log:37 - menu seçildi
+2022-02-22 22:53:44 INFO  Log:37 - alt katogorilerin kaç tane olduğu doğrulandı
+2022-02-22 22:53:45 INFO  Log:37 - beklenen tüm alt kategorilerin olduğu doğrulandı
+2022-02-22 22:53:45 INFO  Log:26 - ---------------------------------------------------------------------------------------
+2022-02-22 22:53:45 INFO  Log:27 - **************************        all menu testi END    **************************
+2022-02-22 22:53:45 INFO  Log:28 - ---------------------------------------------------------------------------------------
+2022-02-22 22:53:47 INFO  TC01StepDefinitions:21 - anasayfa açıldı
+2022-02-22 22:53:50 INFO  TC01StepDefinitions:31 - sign in butonuna tıklandı
+2022-02-22 22:53:50 INFO  TC01StepDefinitions:40 - invalid email girildi
+2022-02-22 22:53:51 INFO  TC01StepDefinitions:47 - devam butonuna tıklandı
+2022-02-22 22:53:51 INFO  TC01StepDefinitions:55 - hata mesajı doğrulandı
+2022-02-22 23:02:00 INFO  TC01StepDefinitions:21 - anasayfa açıldı
+2022-02-22 23:02:00 INFO  Log:16 - ---------------------------------------------------------------------------------------
+2022-02-22 23:02:00 INFO  Log:17 - ***********************        all menu testi START    **************************
+2022-02-22 23:02:00 INFO  Log:18 - ---------------------------------------------------------------------------------------
+2022-02-22 23:02:01 INFO  Log:37 - All butonuna tıklandı
+2022-02-22 23:02:17 INFO  Log:37 - menu seçildi
+2022-02-22 23:02:17 INFO  Log:37 - alt katogorilerin kaç tane olduğu doğrulandı
+2022-02-22 23:02:18 INFO  Log:37 - beklenen tüm alt kategorilerin olduğu doğrulandı
+2022-02-22 23:02:18 INFO  Log:26 - ---------------------------------------------------------------------------------------
+2022-02-22 23:02:18 INFO  Log:27 - **************************        all menu testi END    **************************
+2022-02-22 23:02:18 INFO  Log:28 - ---------------------------------------------------------------------------------------
+2022-03-08 15:37:48 INFO  TC01StepDefinitions:21 - anasayfa aÃ§Ä±ldÄ±
+2022-03-08 15:37:49 INFO  TC01StepDefinitions:21 - anasayfa aÃ§Ä±ldÄ±
+2022-03-08 15:37:52 INFO  TC01StepDefinitions:31 - sign in butonuna tÄ±klandÄ±
+2022-03-08 15:37:52 INFO  TC01StepDefinitions:31 - sign in butonuna tÄ±klandÄ±
+2022-03-08 15:37:53 INFO  TC01StepDefinitions:40 - invalid email girildi
+2022-03-08 15:37:53 INFO  TC01StepDefinitions:40 - invalid email girildi
+2022-03-08 15:37:54 INFO  TC01StepDefinitions:47 - devam butonuna tÄ±klandÄ±
+2022-03-08 15:37:54 INFO  TC01StepDefinitions:55 - hata mesajÄ± doÄŸrulandÄ±
+2022-03-08 15:37:54 INFO  TC01StepDefinitions:47 - devam butonuna tÄ±klandÄ±
+2022-03-08 15:37:54 INFO  TC01StepDefinitions:55 - hata mesajÄ± doÄŸrulandÄ±
+2022-03-08 15:40:32 INFO  TC01StepDefinitions:21 - anasayfa aÃ§Ä±ldÄ±
+2022-03-08 15:40:32 INFO  TC01StepDefinitions:21 - anasayfa aÃ§Ä±ldÄ±
+2022-03-08 15:40:35 INFO  TC01StepDefinitions:31 - sign in butonuna tÄ±klandÄ±
+2022-03-08 15:40:35 INFO  TC01StepDefinitions:40 - invalid email girildi
+2022-03-08 15:40:35 INFO  TC01StepDefinitions:31 - sign in butonuna tÄ±klandÄ±
+2022-03-08 15:40:36 INFO  TC01StepDefinitions:40 - invalid email girildi
+2022-03-08 15:40:36 INFO  TC01StepDefinitions:47 - devam butonuna tÄ±klandÄ±
+2022-03-08 15:40:36 INFO  TC01StepDefinitions:55 - hata mesajÄ± doÄŸrulandÄ±
+2022-03-08 15:40:36 INFO  TC01StepDefinitions:47 - devam butonuna tÄ±klandÄ±
+2022-03-08 15:40:36 INFO  TC01StepDefinitions:55 - hata mesajÄ± doÄŸrulandÄ±
+2022-03-08 15:45:15 INFO  TC01StepDefinitions:21 - anasayfa aÃ§Ä±ldÄ±
+2022-03-08 15:45:16 INFO  TC01StepDefinitions:21 - anasayfa aÃ§Ä±ldÄ±
+2022-03-08 15:45:18 INFO  TC01StepDefinitions:31 - sign in butonuna tÄ±klandÄ±
+2022-03-08 15:45:18 INFO  TC01StepDefinitions:40 - invalid email girildi
+2022-03-08 15:45:18 INFO  TC01StepDefinitions:47 - devam butonuna tÄ±klandÄ±
+2022-03-08 15:45:18 INFO  TC01StepDefinitions:31 - sign in butonuna tÄ±klandÄ±
+2022-03-08 15:45:19 INFO  TC01StepDefinitions:40 - invalid email girildi
+2022-03-08 15:45:19 INFO  TC01StepDefinitions:55 - hata mesajÄ± doÄŸrulandÄ±
+2022-03-08 15:45:20 INFO  TC01StepDefinitions:47 - devam butonuna tÄ±klandÄ±
+2022-03-08 15:45:20 INFO  TC01StepDefinitions:55 - hata mesajÄ± doÄŸrulandÄ±
+2022-03-08 15:46:33 INFO  TC01StepDefinitions:21 - anasayfa aÃ§Ä±ldÄ±
+2022-03-08 15:46:33 INFO  TC01StepDefinitions:21 - anasayfa aÃ§Ä±ldÄ±
+2022-03-08 15:46:36 INFO  TC01StepDefinitions:31 - sign in butonuna tÄ±klandÄ±
+2022-03-08 15:46:36 INFO  TC01StepDefinitions:40 - invalid email girildi
+2022-03-08 15:46:36 INFO  TC01StepDefinitions:31 - sign in butonuna tÄ±klandÄ±
+2022-03-08 15:46:36 INFO  TC01StepDefinitions:40 - invalid email girildi
+2022-03-08 15:46:36 INFO  TC01StepDefinitions:47 - devam butonuna tÄ±klandÄ±
+2022-03-08 15:46:36 INFO  TC01StepDefinitions:55 - hata mesajÄ± doÄŸrulandÄ±
+2022-03-08 15:46:37 INFO  TC01StepDefinitions:47 - devam butonuna tÄ±klandÄ±
+2022-03-08 15:46:37 INFO  TC01StepDefinitions:55 - hata mesajÄ± doÄŸrulandÄ±
+2022-03-08 15:48:35 INFO  TC01StepDefinitions:21 - anasayfa aÃ§Ä±ldÄ±
+2022-03-08 15:48:36 INFO  TC01StepDefinitions:21 - anasayfa aÃ§Ä±ldÄ±
+2022-03-08 15:48:37 INFO  TC01StepDefinitions:31 - sign in butonuna tÄ±klandÄ±
+2022-03-08 15:48:37 INFO  TC01StepDefinitions:40 - invalid email girildi
+2022-03-08 15:48:38 INFO  TC01StepDefinitions:31 - sign in butonuna tÄ±klandÄ±
+2022-03-08 15:48:38 INFO  TC01StepDefinitions:40 - invalid email girildi
+2022-03-08 15:48:38 INFO  TC01StepDefinitions:47 - devam butonuna tÄ±klandÄ±
+2022-03-08 15:48:38 INFO  TC01StepDefinitions:55 - hata mesajÄ± doÄŸrulandÄ±
+2022-03-08 15:48:39 INFO  TC01StepDefinitions:47 - devam butonuna tÄ±klandÄ±
+2022-03-08 15:48:39 INFO  TC01StepDefinitions:55 - hata mesajÄ± doÄŸrulandÄ±

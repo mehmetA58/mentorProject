@@ -1,0 +1,141 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13210236100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user goes to Amazon Home Page",
+            "match": {
+              "location": "ui.stepdefinitions.TC01StepDefinitions.user_goes_to_amazon_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2196913100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks signin button",
+            "match": {
+              "location": "ui.stepdefinitions.TC01StepDefinitions.user_clicks_signin_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-08T12:48:22.428Z",
+        "line": 10,
+        "name": "Amazon invalid sign in",
+        "description": "",
+        "id": "amazon-invalid-sign-in;amazon-invalid-sign-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 91062700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters invalid email",
+            "match": {
+              "location": "ui.stepdefinitions.TC01StepDefinitions.users_enters_invalid_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 854762400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clicks continue button",
+            "match": {
+              "location": "ui.stepdefinitions.TC01StepDefinitions.clicks_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59040100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "checks that the error message is displayed",
+            "match": {
+              "location": "ui.stepdefinitions.TC01StepDefinitions.checks_that_the_error_message_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 610796600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "close page",
+            "match": {
+              "location": "ui.stepdefinitions.TC01StepDefinitions.closePage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@Parallel1"
+          },
+          {
+            "name": "@Parallel2"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon invalid sign in",
+    "description": "",
+    "id": "amazon-invalid-sign-in",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/uiFeature/uiSample.feature",
+    "tags": [
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Parallel1",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Parallel2",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

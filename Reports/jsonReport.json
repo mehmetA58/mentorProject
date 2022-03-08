@@ -1,0 +1,47 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-08T12:48:22.413Z",
+        "line": 3,
+        "name": "deneme1",
+        "description": "",
+        "id": "deneme;deneme1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user send a GET request",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user get a response",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
+      }
+    ],
+    "name": "deneme",
+    "description": "",
+    "id": "deneme",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/apiFeature/apiSample.feature",
+    "tags": []
+  }
+]
