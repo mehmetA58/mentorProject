@@ -9,9 +9,9 @@ import io.cucumber.junit.CucumberOptions;
         plugin = {"pretty", "html:Reports/htmlReport.html",
                 "json:Reports/jsonReport.json"},
         features="src/test/resources/apiFeature",
-        glue="stepdefinitions",
+        glue="api/stepdefinitions",
         //dryRun=false,
-        tags="@api",
+        tags="",
         publish=true
 )
 public class Runner {

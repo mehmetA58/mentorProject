@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-03-08T12:48:22.413Z",
+        "start_timestamp": "2022-03-08T13:10:22.111Z",
         "line": 3,
         "name": "deneme1",
         "description": "",
@@ -13,20 +13,26 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 2312620900,
+              "status": "passed"
             },
             "line": 4,
             "name": "user send a GET request",
-            "match": {},
+            "match": {
+              "location": "api.stepdefinitions.MyStepdefs.userSendAGETRequest()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 62500000,
+              "status": "passed"
             },
             "line": 5,
             "name": "user get a response",
-            "match": {},
+            "match": {
+              "location": "api.stepdefinitions.MyStepdefs.userGetAResponse()"
+            },
             "keyword": "Then "
           }
         ],
@@ -42,6 +48,151 @@
     "id": "deneme",
     "keyword": "Feature",
     "uri": "file:src/test/resources/apiFeature/apiSample.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-08T13:10:24.564Z",
+        "line": 2,
+        "name": "Create_board",
+        "description": "",
+        "id": "trello-testi;create-board",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 656284900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Send POST request for create \"deneme\" board",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"deneme\"",
+                  "offset": 29
+                }
+              ],
+              "location": "api.stepdefinitions.CreateBoard.send_post_request_for_create_board(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c400\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:647)\r\n\tat org.junit.Assert.assertEquals(Assert.java:633)\r\n\tat api.stepdefinitions.CreateBoard.assertStatusCode(CreateBoard.java:56)\r\n\tat ✽.Assert status code 200(file:///C:/Users/pc1/eclipse-workspace/MENTORPROJECT/src/test/resources/apiFeature/createBoard.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "Assert status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 19
+                }
+              ],
+              "location": "api.stepdefinitions.CreateBoard.assertStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Assert board name is \"deneme\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"deneme\"",
+                  "offset": 21
+                }
+              ],
+              "location": "api.stepdefinitions.CreateBoard.assert_board_name_is(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Trello_testi",
+    "description": "",
+    "id": "trello-testi",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/apiFeature/createBoard.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-08T13:10:25.236Z",
+        "line": 2,
+        "name": "Create_Board_POJO",
+        "description": "",
+        "id": ";create-board-pojo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 343770800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "POST request for create board \"a\" with pojo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a\"",
+                  "offset": 30
+                }
+              ],
+              "location": "api.stepdefinitions.CreateBoardPOJO.postRequestForCreateBoardWithPojo(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 46876300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "get response with pojo",
+            "match": {
+              "location": "api.stepdefinitions.CreateBoardPOJO.get_response_with_pojo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c400\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:647)\r\n\tat org.junit.Assert.assertEquals(Assert.java:633)\r\n\tat api.stepdefinitions.CreateBoardPOJO.assertResponse(CreateBoardPOJO.java:46)\r\n\tat ✽.assert response \"a\"(file:///C:/Users/pc1/eclipse-workspace/MENTORPROJECT/src/test/resources/apiFeature/createBoardwithPojo.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "assert response \"a\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a\"",
+                  "offset": 16
+                }
+              ],
+              "location": "api.stepdefinitions.CreateBoardPOJO.assertResponse(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/apiFeature/createBoardwithPojo.feature",
     "tags": []
   }
 ]

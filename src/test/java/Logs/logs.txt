@@ -75,3 +75,13 @@
 2022-03-08 15:48:38 INFO  TC01StepDefinitions:55 - hata mesajÄ± doÄŸrulandÄ±
 2022-03-08 15:48:39 INFO  TC01StepDefinitions:47 - devam butonuna tÄ±klandÄ±
 2022-03-08 15:48:39 INFO  TC01StepDefinitions:55 - hata mesajÄ± doÄŸrulandÄ±
+2022-03-08 16:05:37 INFO  TC01StepDefinitions:21 - anasayfa aÃ§Ä±ldÄ±
+2022-03-08 16:05:38 INFO  TC01StepDefinitions:21 - anasayfa aÃ§Ä±ldÄ±
+2022-03-08 16:05:41 INFO  TC01StepDefinitions:31 - sign in butonuna tÄ±klandÄ±
+2022-03-08 16:05:41 INFO  TC01StepDefinitions:31 - sign in butonuna tÄ±klandÄ±
+2022-03-08 16:05:41 INFO  TC01StepDefinitions:40 - invalid email girildi
+2022-03-08 16:05:42 INFO  TC01StepDefinitions:40 - invalid email girildi
+2022-03-08 16:05:43 INFO  TC01StepDefinitions:47 - devam butonuna tÄ±klandÄ±
+2022-03-08 16:05:43 INFO  TC01StepDefinitions:47 - devam butonuna tÄ±klandÄ±
+2022-03-08 16:05:43 INFO  TC01StepDefinitions:55 - hata mesajÄ± doÄŸrulandÄ±
+2022-03-08 16:05:43 INFO  TC01StepDefinitions:55 - hata mesajÄ± doÄŸrulandÄ±
